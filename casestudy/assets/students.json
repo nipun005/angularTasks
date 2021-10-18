@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Rahul",
+        "class": 3,
+        "section": "D",
+        "subject1": 23,
+        "subject2": 45,
+        "subject3": 42
+    },
+    {
+        "name": "Akash",
+        "class": 4,
+        "section": "B",
+        "subject1": 23,
+        "subject2": 45,
+        "subject3": 42
+    },
+    {
+        "name": "Subham",
+        "class": 2,
+        "section": "A",
+        "subject1": 27,
+        "subject2": 37,
+        "subject3": 22
+    },
+    {
+        "name": "Himanshu",
+        "class": 5,
+        "section": "C",
+        "subject1": 5,
+        "subject2": 4,
+        "subject3": 8
+    },
+    {
+        "name": "Nitish",
+        "class": 5,
+        "section": "D",
+        "subject1": 45,
+        "subject2": 46,
+        "subject3": 48
+    },
+    {
+        "name": "Ashish",
+        "class": 8,
+        "section": "A",
+        "subject1": 10,
+        "subject2": 8,
+        "subject3": 16
+    },
+    {
+        "name": "Sourav",
+        "class": 3,
+        "section": "C",
+        "subject1": 40,
+        "subject2": 42,
+        "subject3": 12
+    },
+    {
+        "name": "Gurveen",
+        "class": 5,
+        "section": "B",
+        "subject1": 15,
+        "subject2": 12,
+        "subject3": 24
+    },
+    {
+        "name": "Ayush",
+        "class": 6,
+        "section": "D",
+        "subject1": 35,
+        "subject2": 38,
+        "subject3": 42
+    },
+    {
+        "name": "Tarun",
+        "class": 3,
+        "section": "C",
+        "subject1": 20,
+        "subject2": 16,
+        "subject3": 32
+    },
+    {
+        "name": "Yuzvendra",
+        "class": 7,
+        "section": "A",
+        "subject1": 30,
+        "subject2": 34,
+        "subject3": 22
+    },
+    {
+        "name": "Ravi",
+        "class": 4,
+        "section": "B",
+        "subject1": 25,
+        "subject2": 20,
+        "subject3": 42
+    }
+]

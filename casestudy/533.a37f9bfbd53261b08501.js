@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasestudy=self.webpackChunkcasestudy||[]).push([[533],{533:(t,o,e)=>{e.r(o),e.d(o,{EcommercePageModule:()=>u});var E=e(583),m=e(866),s=e(841),a=e(639);let u=(()=>{class c{}return c.\u0275fac=function(r){return new(r||c)},c.\u0275mod=a.oAB({type:c}),c.\u0275inj=a.cJS({providers:[m.S],imports:[[E.ez,s.JF]]}),c})()}}]);

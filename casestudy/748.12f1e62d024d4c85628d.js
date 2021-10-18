@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasestudy=self.webpackChunkcasestudy||[]).push([[748],{748:(d,u,s)=>{s.r(u),s.d(u,{DynamicDivsModule:()=>o});var c=s(583),a=s(639);let o=(()=>{class n{}return n.\u0275fac=function(l){return new(l||n)},n.\u0275mod=a.oAB({type:n}),n.\u0275inj=a.cJS({imports:[[c.ez]]}),n})()}}]);

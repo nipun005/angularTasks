@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcasestudy=self.webpackChunkcasestudy||[]).push([[27],{27:(m,s,o)=>{o.r(s),o.d(s,{TimerAppModule:()=>e});var n=o(583),a=o(665),r=o(639);let e=(()=>{class u{}return u.\u0275fac=function(d){return new(d||u)},u.\u0275mod=r.oAB({type:u}),u.\u0275inj=r.cJS({providers:[n.uU],imports:[[n.ez,a.u5]]}),u})()}}]);
