@@ -12,8 +12,6 @@
 cursor: pointer;
 background-color: cyan;
 color: white;
-transform: scale(2);
-margin-bottom: 16px;
 }
 
 .box {
