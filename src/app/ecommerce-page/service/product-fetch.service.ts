@@ -12,7 +12,7 @@ export class ProductFetchService {
   constructor(private http: HttpClient) { }
 
   getData(): Observable<Products[]> {
-    return this.http.get<Products[]>("./../../../assets/products.json");
+    return this.http.get<Products[]>("assets/products.json");
   }
 
   setProductData(data: Products[]){
