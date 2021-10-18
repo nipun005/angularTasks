@@ -1,0 +1,18 @@
+
+<div class="main-content">
+
+<div class="countdown">
+<app-countdown-timer [timerValue]="timerValue" (isTimerComplete)="setTimerStatus($event)"></app-countdown-timer>
+</div>
+<div class="functionality">
+<app-timer-functionality (timerValue)="setTimerValue($event)" [isTimerCompleted]="isTimerCompleted"></app-timer-functionality>
+</div>
+
+<div class="timestamp">
+<app-timer-time-stamps [timerData]="timerValue" [isTimerCompleted]="isTimerCompleted"></app-timer-time-stamps>
+</div>
+<div class="countstamp">
+<app-timer-count-stamps [timerData]="timerValue" [isTimerCompleted]="isTimerCompleted"></app-timer-count-stamps>
+</div>
+
+</div>

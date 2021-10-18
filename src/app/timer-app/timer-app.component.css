@@ -1,0 +1,29 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.countdown {
+    flex: 1 1 40%;
+    border: black solid 2px;
+    height: 250px;
+    margin: 8px;
+}
+
+.functionality {
+    flex: 1 1 50%;
+    border: black solid 2px;
+    height: 250px;
+    margin: 8px;
+}
+
+.timestamp {
+    flex: 1 1 40%;
+    margin: 8px;
+}
+
+.countstamp {
+    flex: 1 1 50%;
+    margin: 8px;
+}

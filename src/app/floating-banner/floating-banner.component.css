@@ -1,0 +1,22 @@
+.main-content {
+box-sizing: content-box;
+border: black solid 2px;
+padding: 20px;
+}
+
+.taskone {
+    margin-top: 24px;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.rotate {
+    animation: rotation 8s infinite linear;
+}

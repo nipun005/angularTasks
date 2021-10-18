@@ -1,0 +1,11 @@
+<div class="timerfunctions">
+<div>
+<label for="timelimit">Enter Time Limit </label>
+<input #timer type="number" placeholder="Enter time in seconds" min="1" [(ngModel)] ="myMsg" [disabled]="disableTextField">
+</div>
+
+<div class="timerbuttons">
+<button (click)="startPauseTimer(timer.value)">Start/Pause</button>
+<button (click)="resetTimer()">Reset</button>
+</div>
+</div>

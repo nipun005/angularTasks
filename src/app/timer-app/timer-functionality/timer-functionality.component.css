@@ -1,0 +1,12 @@
+.timerfunctions {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 16px;
+    width: 45%;
+}
+.timerbuttons {
+    align-self: flex-end;
+    margin-right: 16px;
+}

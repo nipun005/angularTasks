@@ -1,0 +1,31 @@
+.main-content {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.functionalities {
+    align-self: flex-end;
+    margin-right: 16px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gridview {
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    border: black solid 2px;
+    margin: 16px;
+}
+
+.listview {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(0, 255, 170);
+    border: black solid 2px;
+    margin: 8px;
+}

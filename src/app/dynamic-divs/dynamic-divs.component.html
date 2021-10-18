@@ -1,0 +1,9 @@
+<div class="main-content">
+
+<div *ngFor= "let i of elements;let indexOfelement=index;">
+  <div class="box"> 
+      <button class="div-button" (click)="onButtonClick(indexOfelement + 1)">Click Me!</button>
+  </div>
+</div>
+
+</div>

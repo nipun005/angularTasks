@@ -1,0 +1,22 @@
+<p>student-marks works!</p>
+
+<table>
+    <tr>
+      <!-- <th>Name <i class="arrow up"></i></th> -->
+      <th (click)="sortName()">Name</th>
+      <th (click)="sortClass()">Class</th>
+      <th (click)="sortSection()">Section</th>
+      <th (click)="sortSubjectOne()">Subject 1</th>
+      <th (click)="sortSubjectTwo()">Subject 2</th>
+      <th (click)="sortSubjectThree()">Subject 3</th>
+    </tr>
+    <tr *ngFor="let data of studentsData">
+      <td> {{data.name}}</td>
+      <td>{{data.class}}</td>
+      <td>{{data.section}}</td>
+      <td>{{data.subject1}}</td>
+      <td>{{data.subject2}}</td>
+      <td>{{data.subject3}}</td>
+    </tr>
+  </table>
+  

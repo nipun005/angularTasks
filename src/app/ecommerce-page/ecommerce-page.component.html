@@ -1,0 +1,31 @@
+<div class="main-content">
+
+<div class="functionalities">
+<select #dropdown (change)="changeView(dropdown.value)">
+    <option value="gridview">Grid view</option>
+    <option value="listview">List view</option>
+</select>
+
+<select #price (change)="filterPrice(price.value)">
+    <option value="allprices">All Prices</option>
+    <option value="categoryone">Under Rs 1000</option>
+    <option value="categorytwo">Rs 1000 - Rs 5000</option>
+    <option value="categorythree">Rs 5000 - Rs 10000</option>
+    <option value="categoryfour">Rs 10000 - Rs 20000</option>
+    <option value="categoryfive">Over Rs 20000</option>
+</select>
+</div>
+
+<div class="products">
+
+<div *ngFor="let data of productArray" [ngClass]="{'gridview': displayGrid, 
+'listview': displayList}">
+<h1>{{ data.productname }}</h1>
+<div>
+    Price: RS {{ data.price }}
+</div>
+</div>
+
+</div>
+
+</div>
