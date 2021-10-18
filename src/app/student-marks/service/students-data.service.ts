@@ -13,7 +13,7 @@ export class StudentsDataService {
 
   fetchStudentData$(): Observable<Students[]> {
 
-    return this.http.get<Students[]>("assets/students.json");
+    return this.http.get<Students[]>("angularTasks/assets/students.json");
   }
 
   setStudentData(value: Students[]) {
